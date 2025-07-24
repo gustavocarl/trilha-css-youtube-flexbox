@@ -1,0 +1,153 @@
+.container-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  height: 50px;
+}
+
+.container-header-menu img {
+  padding: 0.8rem;
+}
+.container-header-search {
+  display: flex;
+  border: 1px solid #585858;
+}
+
+.header-search {
+  border: none;
+  width: 500px;
+}
+
+.header-button {
+  border: none;
+}
+
+.container-header-user img {
+  padding-right: 1.5rem;
+}
+
+.main .container-main {
+  display: flex;
+  flex-direction: row;
+}
+
+.container-video {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem 2rem 0 2rem;
+}
+
+.video {
+  width: 100%;
+  margin: 0.5rem 1rem;
+}
+
+.container-list {
+  width: 30%;
+}
+
+.video-text {
+  width: 100%;
+}
+
+.container-text {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+.avatar-information {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 0.5rem 1rem;
+  padding-right: 6rem;
+}
+
+.channel-logo {
+  width: 60px;
+  height: 60px;
+  padding-right: 0.5rem;
+}
+
+.channel-title,
+.channel-description {
+  margin: 0.5rem 0;
+}
+
+.button-subscribe {
+  background-color: #cc0000;
+  color: #ffffff;
+  font-size: 1rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  height: 3rem;
+  width: 9rem;
+  margin: 2rem 2rem;
+}
+.figure-card {
+  display: flex;
+  flex-direction: row;
+}
+
+.figure {
+  width: auto;
+  height: auto;
+  margin-right: 1rem;
+}
+
+.figure-title {
+  padding: 0;
+  margin: 0;
+  font-size: 0.875rem;
+}
+
+.figure-channel {
+  margin: 0.5rem 0;
+  padding: 0;
+  font-size: 0.75rem;
+}
+
+.figure-visualization {
+  display: flex;
+  margin: 0;
+  flex-wrap: wrap;
+  padding: 0;
+  font-size: 0.75rem;
+}
+
+.channel-like,
+.channel-dislike,
+.channel-share,
+.channel-download {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 0.5rem 3rem;
+}
+
+.like-image,
+.dislike-image,
+.share-image,
+.download-image {
+  width: 1.5rem;
+  height: 1.5rem;
+  margin-right: 0.5rem;
+}
+
+.container-video-description {
+  display: flex;
+  flex-direction: column;
+}
+
+.video-title {
+  margin-bottom: 0;
+}
+
+.video-paragraph {
+  width: 50%;
+  color: #60606066;
+  flex-wrap: wrap;
+}
