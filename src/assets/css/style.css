@@ -38,7 +38,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 2rem 2rem 0 2rem;
+  margin: 0 1rem;
 }
 
 .video {
@@ -89,9 +89,15 @@
   width: 9rem;
   margin: 2rem 2rem;
 }
+
 .figure-card {
   display: flex;
   flex-direction: row;
+  padding-bottom: 2rem;
+}
+
+.figure-card:first-child {
+  padding-top: 0.5rem;
 }
 
 .figure {
@@ -120,6 +126,11 @@
   font-size: 0.75rem;
 }
 
+h3 {
+  font-size: 1.5rem;
+  padding: 1rem 0;
+}
+
 .channel-like,
 .channel-dislike,
 .channel-share,
@@ -146,10 +157,12 @@
 
 .video-title {
   margin-bottom: 0;
+  padding-top: 2rem;
 }
 
 .video-paragraph {
   width: 50%;
   color: #60606066;
   flex-wrap: wrap;
+  padding-top: 1rem;
 }
