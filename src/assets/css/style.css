@@ -156,13 +156,13 @@ h3 {
 }
 
 .video-title {
-  margin-bottom: 0;
-  padding-top: 2rem;
+  font-size: 1rem;
+  padding-top: 1rem;
 }
 
 .video-paragraph {
   width: 50%;
   color: #60606066;
   flex-wrap: wrap;
-  padding-top: 1rem;
+  padding-top: 0.5rem;
 }
